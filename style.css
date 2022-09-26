@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding: 0 50px;
+    max-width: 1300px;
+}
+.container{
+    width: 100%; 
+    margin: 75px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    box-shadow: 0 0 10px #888;
+}
+.right-container{
+    background: #0000ff;
+    width: 60%;
+    padding: 85px 47.3px;
+}
+.image-con{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+}
+.image-con img{
+    width: 100%;
+    height: 100%;
+}
+.main-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 520;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.paragraph{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+.left-container{
+    width: 100%;
+    padding:20px 100px;
+}
+.heading{
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.form-content{
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+label{
+    font-size: 18px;
+    color: #555;
+}
+input{
+    margin: 5px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #888;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: #0000ff;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+.btn:hover{
+    background: #0d0db3;
+}
+.member{
+    text-align: right;
+    margin-top: 5px;
+}
+.alt{
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #666;
+    padding: 7px;
+    width: 35px;
+    border-radius: 50%;
+}
+.button-con{
+    display: flex;
+    gap: 20px;
+}
+.btn--1{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+.facebook{
+    background: #0000ff;
+    transition: .5s;
+}
+.facebook:hover{
+    background: #0d0db3;
+}
+.google{
+    background: #ff0000;
+    transition: .5s;
+}
+.google:hover{
+    background: #d60404;
+}
